@@ -22,19 +22,25 @@
 
 <body>
 
-    <div class="main d-flex justify-content-center align-items-center">
+    <div class="main d-flex flex-column justify-content-center align-items-center">
+        @if (session('status'))
+        <div class="alert alert-danger">
+            {{ session('message') }}
+        </div>
+        @endif
         <div class="login-box col-lg-5">
             <div class="card shadow-sm">
                 <div class="card-body">
                     <h5 class="fw-600 mb-4 text-center">Login (Lo gw Doain)</h5>
                     <form action="" method="post">
+                        @csrf
                         <div class="mb-3">
                             <label for="username" class="form-label">Username</label>
-                            <input type="text" class="form-control form-control-lg" id="username" name="username" placeholder="Zee punya daoa (contoh)">
+                            <input type="text" class="form-control form-control-lg" id="username" name="username" placeholder="Zee punya daoa (contoh)" required>
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control form-control-lg" id="password" name="password">
+                            <input type="password" class="form-control form-control-lg" id="password" name="password" required>
                         </div>
                         <div>
                             <button class="btn btn-primary btn-lg form-control">Login</button>
