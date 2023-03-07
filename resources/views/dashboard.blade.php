@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-</head>
-<body>
-    ini halaman dashboard untuk admin 
-</body>
-</html>
+@extends('layouts.mainlayout')
+
+@section('title', 'Dashboard')
+
+@section('content')
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus alias tempora tempore ratione accusantium! At omnis vitae aperiam! Repellendus, aspernatur numquam aliquam nihil, officiis velit libero nam voluptas explicabo reprehenderit corrupti ratione culpa! Aliquam fugit in nisi, voluptates nam incidunt quam sunt nulla id eius, mollitia laudantium voluptatem. Hic vel esse quo optio sit perferendis at omnis officiis, necessitatibus nulla dolore ea voluptas deleniti placeat ab quibusdam incidunt iure sequi animi facere expedita nam unde. Quaerat consectetur veritatis optio veniam. Culpa, quae sed natus eveniet nesciunt, consequuntur ipsa laudantium totam harum doloremque possimus! Laudantium ipsam quaerat voluptatum tenetur voluptas rerum fuga neque exercitationem numquam quo. Ullam, molestias, perspiciatis quas aut hic dignissimos ab velit dolor cum eveniet magni quae officia exercitationem. Nemo a maxime, similique totam rerum, repudiandae tempora cumque, nobis ex impedit ratione ipsum. Debitis consectetur perspiciatis architecto nulla obcaecati reprehenderit autem eum eos sit praesentium aspernatur tempora ipsa quis fugit omnis enim, rem vero natus. Ex veritatis iste quam laudantium odit doloremque. Consequuntur perspiciatis ex repudiandae beatae libero eaque nesciunt eligendi deserunt similique nisi necessitatibus assumenda, reiciendis nemo exercitationem placeat consequatur voluptatibus voluptates architecto provident officia odio soluta natus! Quae optio itaque, ipsam at voluptas asperiores natus corrupti!
+@endsection
+
