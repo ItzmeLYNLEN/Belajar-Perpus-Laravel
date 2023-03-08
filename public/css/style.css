@@ -1,0 +1,28 @@
+.main {
+    height: 100vh;
+}
+
+.navbar{
+    background: #1a1a1a;
+}
+.sidebar {
+    background: #333333;
+    color: #ffac42;
+}
+
+.sidebar a {
+    color: #ffac42;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+
+.sidebar a:hover{
+    color: #ffac42;
+    background: #1a1a1a;
+}
+
+.active {
+    background: #1a1a1a;
+    border-right: 5px solid #ff1f57;
+}
