@@ -26,3 +26,33 @@
     background: #1a1a1a;
     border-right: 5px solid #ff1f57;
 }
+
+.card-data i{
+    font-size: 50px;
+}
+
+.card-data {
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.card-data.book{
+    background: teal;
+}
+
+.card-data.category{
+    background: orangered;
+}
+
+.card-data.user{
+    background: rgb(121, 38, 121);
+}
+
+.card-desc{
+    font-size: 27px;
+}
+
+.card-count{
+    font-size: 27px;
+}
