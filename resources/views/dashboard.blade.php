@@ -5,7 +5,7 @@
 @section('content')
 
 
-    <h1>Selamat Datang Kak {{ Auth::user()->username }}</h1>
+    <h1>Hallo Kak {{ Auth::user()->username }} &#x1F44B;&#x1F601;</h1>
     
     <div class="row my-5">
         <div class="col-lg-4">
